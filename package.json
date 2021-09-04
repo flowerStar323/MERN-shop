@@ -1,0 +1,61 @@
+{
+  "name": "fashioncube",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://quintuslabs.github.io/fashion-cube",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/quintuslabs/fashion-cube"
+  },
+  "keywords": [
+    "fashion",
+    "fashion-cube",
+    "e-commerce",
+    "shopping",
+    "Shopping cart"
+  ],
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "aos": "^3.0.0-beta.6",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.4.1",
+    "classnames": "^2.2.6",
+    "node-sass": "^4.14.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.0.0-beta.17",
+    "react-dom": "^16.13.1",
+    "react-owl-carousel2": "^0.3.0",
+    "react-redux": "^7.2.0",
+    "react-responsive": "^8.0.3",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.0",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
